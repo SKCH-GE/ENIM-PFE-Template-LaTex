@@ -1,0 +1,7 @@
+# LaTeX build outputs generated from main.tex
+/main.*
+!/main.tex
+!/main.pdf
+
+# LaTeX auxiliary files generated beside included chapters
+*.aux

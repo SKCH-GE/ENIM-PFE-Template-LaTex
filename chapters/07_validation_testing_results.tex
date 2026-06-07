@@ -1,0 +1,66 @@
+\chapter{Validation, Testing, and Results}
+\label{chap:validation-testing-results}
+
+This chapter proves how far the work satisfies its objectives. It should separate evidence from interpretation.
+
+\section{Validation Strategy}
+State what must be validated and why. Connect the strategy to the requirements and success criteria defined earlier.
+
+Avoid saying that the system was ``tested successfully'' without explaining the test basis, inputs, expected results, and observed results.
+
+\section{Test Setup}
+Describe the test environment, datasets, tools, devices, versions, configurations, and assumptions. Include enough detail to make the results reproducible.
+
+\section{Experiments}
+Describe each experiment or test campaign. Give the objective, input data, procedure, and acceptance criteria.
+
+\placeholderfigure{test-setup.pdf}{Test setup placeholder}{Insert a diagram or screenshot showing the validation environment.}
+
+\section{Results}
+Present measured or observed results in tables, charts, or short explanations. Report failures and partial results as clearly as successful ones.
+
+\begin{table}[H]
+    \centering
+    \caption{Results summary template}
+    \label{tab:results-summary-template}
+    \small
+    \begin{tabular}{L{0.20\textwidth}L{0.24\textwidth}L{0.24\textwidth}L{0.20\textwidth}}
+        \toprule
+        \textbf{Test} & \textbf{Expected result} & \textbf{Observed result} & \textbf{Status} \\
+        \midrule
+        Test case A & Replace with expectation. & Replace with observation. & Pass, fail, partial, or blocked. \\
+        \tabrowsep
+        Test case B & Replace with expectation. & Replace with observation. & Pass, fail, partial, or blocked. \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Requirement Traceability Matrix}
+Map each requirement to evidence. This makes it clear which objectives are satisfied and which remain open.
+
+\begin{table}[H]
+    \centering
+    \caption{Requirement traceability matrix template}
+    \label{tab:requirement-traceability-template}
+    \small
+    \begin{tabular}{L{0.14\textwidth}L{0.34\textwidth}L{0.34\textwidth}}
+        \toprule
+        \textbf{ID} & \textbf{Evidence} & \textbf{Assessment} \\
+        \midrule
+        FR-01 & Replace with test, artifact, review, or measurement. & Satisfied, partial, blocked, or future work. \\
+        \tabrowsep
+        NFR-01 & Replace with test, artifact, review, or measurement. & Satisfied, partial, blocked, or future work. \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Comparison with Requirements}
+Discuss the results against the original requirements. Highlight mismatches, incomplete evidence, and reasons for deviation.
+
+\section{Threats to Validity}
+Identify factors that may limit the credibility or generalization of the results: sample size, test coverage, measurement bias, missing data, hardware limits, user bias, or uncontrolled variables.
+
+Avoid treating limitations as a weakness to hide. Honest validity analysis makes the report stronger.
+
+\section{Conclusion}
+Summarize the validation status and prepare the reader for the discussion chapter.

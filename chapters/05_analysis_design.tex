@@ -1,0 +1,48 @@
+\chapter{Analysis and Design}
+\label{chap:analysis-design}
+
+This chapter turns requirements into a structured solution. It should make the system understandable before implementation details appear.
+
+\section{Overall Architecture}
+Present the global architecture, main modules, external systems, data sources, users, and communication paths.
+
+\placeholderfigure{overall-architecture.pdf}{Overall architecture placeholder}{Insert the high-level architecture diagram of the proposed solution.}
+
+Avoid drawing every class or function in the global architecture. Keep this view readable.
+
+\section{Subsystem Decomposition}
+Break the solution into subsystems or modules. For each one, state its responsibility, inputs, outputs, and interactions.
+
+\begin{table}[H]
+    \centering
+    \caption{Subsystem decomposition template}
+    \label{tab:subsystem-decomposition-template}
+    \small
+    \begin{tabular}{L{0.22\textwidth}L{0.28\textwidth}L{0.36\textwidth}}
+        \toprule
+        \textbf{Subsystem} & \textbf{Responsibility} & \textbf{Main interactions} \\
+        \midrule
+        Subsystem A & Replace with one clear responsibility. & Replace with inputs, outputs, and dependencies. \\
+        \tabrowsep
+        Subsystem B & Replace with one clear responsibility. & Replace with inputs, outputs, and dependencies. \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Data Flow and Control Flow}
+Explain how information moves through the system and how decisions or operations are triggered.
+
+Avoid mixing normal flows, error flows, and exceptional cases in one unreadable diagram. Split diagrams when needed.
+
+\section{Design Decisions}
+Record the important choices made during design, especially those that affect maintainability, performance, correctness, cost, or user experience.
+
+Avoid documenting trivial choices. Focus on decisions a future maintainer or evaluator would need to understand.
+
+\section{Design Diagrams}
+Include UML diagrams, database schemas, sequence diagrams, deployment diagrams, wireframes, or other views that clarify the solution.
+
+Use each diagram in the text: introduce it, explain what it shows, and refer to the design decision it supports.
+
+\section{Conclusion}
+Conclude by summarizing the selected design and preparing the transition to implementation.

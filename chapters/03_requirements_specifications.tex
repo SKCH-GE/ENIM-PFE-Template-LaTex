@@ -1,0 +1,64 @@
+\chapter{Requirements, Specifications, and Evaluation Protocol}
+\label{chap:requirements-specifications}
+
+This chapter translates the problem into verifiable expectations. Requirements should be clear enough to guide design and later validation.
+
+\section{Non-Functional Requirements}
+Describe quality expectations such as reliability, usability, maintainability, performance, security, scalability, portability, or traceability.
+
+\begin{table}[H]
+    \centering
+    \caption{Non-functional requirements template}
+    \label{tab:non-functional-requirements-template}
+    \small
+    \begin{tabular}{L{0.14\textwidth}L{0.26\textwidth}L{0.50\textwidth}}
+        \toprule
+        \textbf{ID} & \textbf{Quality attribute} & \textbf{Expected evidence} \\
+        \midrule
+        NFR-01 & Replace with a quality attribute. & State how this quality will be checked or observed. \\
+        \tabrowsep
+        NFR-02 & Replace with a quality attribute. & State how this quality will be checked or observed. \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Avoid vague requirements such as ``the system must be user friendly'' without measurable or observable evidence.
+
+\section{Functional Requirements}
+List the services, behaviors, or operations the system must provide. Use active, testable wording.
+
+\begin{table}[H]
+    \centering
+    \caption{Functional requirements template}
+    \label{tab:functional-requirements-template}
+    \small
+    \begin{tabular}{L{0.14\textwidth}L{0.76\textwidth}}
+        \toprule
+        \textbf{ID} & \textbf{Requirement} \\
+        \midrule
+        FR-01 & The system shall replace this sentence with a specific, verifiable behavior. \\
+        \tabrowsep
+        FR-02 & The system shall replace this sentence with a specific, verifiable behavior. \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Avoid mixing implementation choices into requirements unless they are mandatory constraints imposed by the context.
+
+\section{Technical Constraints}
+State constraints related to tools, data, standards, platforms, deadlines, deployment, hardware, software, access rights, or institutional rules.
+
+Avoid presenting personal preferences as constraints. Explain why each constraint exists and how it affects the design.
+
+\section{Success Criteria}
+Define what counts as a successful project. Criteria should connect to the objectives and be checked later in the validation chapter.
+
+\section{Evaluation Protocol}
+Explain how each requirement will be evaluated. Name the tests, experiments, reviews, demonstrations, datasets, metrics, or acceptance rules that will be used.
+
+\placeholderfigure{evaluation-protocol.pdf}{Evaluation protocol placeholder}{Insert a diagram that links objectives, requirements, tests, and evidence.}
+
+Avoid treating demonstration screenshots as proof unless they are connected to explicit acceptance criteria.
+
+\section{Chapter Summary}
+Close by explaining how the requirement baseline guides the methodology and design chapters.
