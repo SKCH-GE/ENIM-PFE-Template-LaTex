@@ -1,4 +1,4 @@
-<img width="799" height="543" alt="image" src="https://github.com/user-attachments/assets/3cb5b42a-1852-496c-ae09-cc7406f3195b" /># LaTeX Report Workspace
+# LaTeX Report Workspace
 
 This folder contains the LaTeX source for the final year project report (rapport de PFE). `main.tex` is the compilation entry point and includes the front matter (dédicaces, remerciements ..), chapters, appendices (annexes), and bibliography.
 
@@ -6,8 +6,33 @@ This folder contains the LaTeX source for the final year project report (rapport
 
 The setup process here is dedicated to windows only, however if you already use Linux or Mac (god forbid) you'd have already figured out how the installations work.
 we'll need these 3 tools mainly: [MikTex, Strawberry Perl, (VSIX) Latex Workshop]
+
+### Miktex
+
+> [Miktex](https://miktex.org/download)
 To work with LaTex locally, you'd first need a complier we can get that at: https://miktex.org/download
 <img width="799" height="543" alt="image" src="https://github.com/user-attachments/assets/c1698410-e0d0-46f9-9488-6b12f357402e" />
+For package management you can choose the server closest to you or even a proxy server if needed 
+<img width="791" height="625" alt="image" src="https://github.com/user-attachments/assets/7dd4b8ab-a882-4f9a-afe9-4c483bd044f2" />
+
+
+### Strawberry Perl
+
+> [Strawberry-Perl](https://strawberryperl.com/)
+Required for Miktex package management and compiler to function 
+<img width="1093" height="736" alt="image" src="https://github.com/user-attachments/assets/beffdb72-f874-4ff6-a361-087912b7afca" />
+
+And all you need now is to add the perl/bin path variable to system environment
+<img width="1165" height="579" alt="image" src="https://github.com/user-attachments/assets/ed2c3ce5-dbe4-46d9-84de-650e6cef3e5c" />
+
+<img width="1123" height="490" alt="image" src="https://github.com/user-attachments/assets/e2ec83ae-742c-4a22-96fd-e313a2f553eb" />
+
+
+### Latex Workshop
+
+[Latex-Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+Finally, for an easy & smooth development experience you're better off getting the "latex workshop" extension
+<img width="791" height="361" alt="image" src="https://github.com/user-attachments/assets/c121a0c3-0a8e-4d62-9db1-e9c9d979e7cc" />
 
 
 ## Contents
